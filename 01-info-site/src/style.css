@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #282d35;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222a;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+nav > h3,
+nav > h4 {
+    margin: 0;
+}
+
+nav > h3 {
+    margin-right: auto;
+    color: #61dafb;
+    font-weight: 700;
+}
+
+nav > h4 {
+    font-weight: 600;
+    color: white;
+}
+
+nav > img {
+    height: 30px;
+    margin-right: 7px;
+}
+
+main {
+    padding: 57px 27px;
+    color: white;
+    background-image: url(./images/reactjs-icon-half.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 72%;
+}
+
+main > h1 {
+    margin: 0;
+    letter-spacing: -0.05em;
+    font-size: 39.06px;
+}
+
+main > ul {
+    margin-top: 46px;
+}
+
+main > ul > li {
+    line-height: 19px;
+    padding: 10px;
+}
+
+main > ul > li::marker {
+    color: #61dafb;
+    font-size: 1.4rem;
+}
