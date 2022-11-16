@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    margin: 43px 0 0 0;
+    padding: 19.5px 72.5px 19.5px 72.5px;
+    justify-content: space-between;
+    background-color: #161619;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+}
