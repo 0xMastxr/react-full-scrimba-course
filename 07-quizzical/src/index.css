@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #f5f7fb;
+  font-family: "Karla", sans-serif;
+  padding: 1rem;
+}
+
+.intro--container {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro--display {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  height: 20%;
+}
+
+.intro--button {
+  cursor: pointer;
+  border: none;
+  padding: 1rem 2.8rem;
+  border-radius: 1rem;
+  background: #4d5b9e;
+  color: #f5f7fb;
+}
+
+.intro--button:hover {
+  filter: brightness(1.2);
+}
+
+.intro--title,
+.intro--description {
+  color: #293264;
+}
+
+span {
+  margin-right: 20px;
+}
+
+.question--answers {
+  padding: 4px 10px;
+  margin: 10px 8px;
+  margin-left: 0px;
+  margin-right: 20px;
+  border-radius: 9px;
+  border: 1px solid #4d5b9e;
+  color: #293264;
+  background-color: #f5f7fb;
+  min-width: 90px;
+  cursor: pointer;
+}
+
+.game--check-answers {
+  border: none;
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 20px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.game--container {
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.question--question {
+  margin-top: 20px;
+  width: 80%;
+  color: #293264;
+}
+
+hr {
+  margin-top: 8px;
+  background-color: #dbdef0;
+  height: 0.8px;
+  border: none;
+  width: 90%;
+}
+
+.game--question-container {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px dashed red; */
+  align-items: left;
+  margin-left: 7rem;
+}
+
+.clicked-button {
+  background-color: red;
+}
+
+.results--container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /* border: 2px dashed red; */
+  /* max-width: 70%; */
+  padding-left: 11rem;
+}
+.results--container > h2 {
+  font-size: 16px;
+  color: #293264;
+  max-width: 420px;
+}
